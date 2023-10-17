@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"/* Importa los estilos de Bootstrap */\r\n@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');\r\n\r\n/* Estilos personalizados */\r\nbody {\r\n    background-color: #f0f0f0;\r\n    font-family: Arial, sans-serif;\r\n}\r\n\r\n.navbar {\r\n    background-color: #333;\r\n    color: #fff;\r\n}\r\n\r\n.main {\r\n    padding: 20px;\r\n}\r\n\r\n.footer {\r\n    background-color: #333;\r\n    color: #fff;\r\n    text-align: center;\r\n    padding: 10px;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,sCAAsC;AACtC,OAAO,CAAC,4EAAI;AAEZ,4BAA4B;;AAC5B,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,OAAO;EACzB,WAAW,EAAE,iBAAiB;CACjC;;;AAED,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,IAAI;CACd;;;AAED,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,IAAI;CAChB;;;AAED,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,IAAI;CAChB"
+}
