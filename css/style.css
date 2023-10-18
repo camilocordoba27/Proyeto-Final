@@ -20,10 +20,18 @@ body {
 
 /* line 19, ../sssee/scss/style.scss */
 footer {
-  background-color: #333;
+  background-color: #4e4d4d;
   color: #fff;
   text-align: center;
   padding: 10px;
+}
+
+a {
+    color: rgb(153, 32, 2);
+}
+
+a:hover{
+    color: #250902;
 }
 
 /* estilo productos */
@@ -89,7 +97,6 @@ footer {
 .redes {
     list-style: none;
 }
-
 
 
 
