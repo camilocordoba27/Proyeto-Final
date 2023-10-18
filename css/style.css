@@ -19,7 +19,7 @@ body {
 }
 
 /* line 19, ../sssee/scss/style.scss */
-.footer {
+footer {
   background-color: #333;
   color: #fff;
   text-align: center;
@@ -89,6 +89,7 @@ body {
 .redes {
     list-style: none;
 }
+
 
 
 
