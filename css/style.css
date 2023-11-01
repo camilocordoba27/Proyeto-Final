@@ -1,196 +1,203 @@
-/* Importa los estilos de Bootstrap */
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
-/* Estilos personalizados */
-/* line 5, ../sssee/scss/style.scss */
+/* line 5, ../Proyeto-Final/scss/style.scss */
 body {
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
 }
 
-/* line 10, ../sssee/scss/style.scss */
+/* line 10, ../Proyeto-Final/scss/style.scss */
 .navbar {
   background-color: #333;
   color: #fff;
 }
 
-/* line 15, ../sssee/scss/style.scss */
+/* line 15, ../Proyeto-Final/scss/style.scss */
 .main {
   padding: 20px;
 }
 
-/* line 19, ../sssee/scss/style.scss */
+/* line 19, ../Proyeto-Final/scss/style.scss */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
- .container ul li{
-    display: inline-block;
-    margin-right: 50px
- }
 
+/* line 28, ../Proyeto-Final/scss/style.scss */
+.container ul li {
+  display: inline-block;
+  margin-right: 50px;
+}
 
+/* line 35, ../Proyeto-Final/scss/style.scss */
 a {
-    color: rgb(153, 32, 2);
+  color: #992002;
 }
 
-a:hover{
-    color: #250902;
+/* line 37, ../Proyeto-Final/scss/style.scss */
+a:hover {
+  color: #250902;
 }
 
-/* estilo productos */
-
+/* line 43, ../Proyeto-Final/scss/style.scss */
 .productos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
 }
 
+/* line 50, ../Proyeto-Final/scss/style.scss */
 .producto {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 10px;
-    width: 300px;
-    text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
 }
 
+/* line 58, ../Proyeto-Final/scss/style.scss */
 .producto img {
-    max-width: 100%;
-    height: auto;
-    padding: 0px;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
 }
 
+/* line 64, ../Proyeto-Final/scss/style.scss */
 .producto:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
+/* line 68, ../Proyeto-Final/scss/style.scss */
 .producto h2 {
-    font-size: 24px;
-    margin: 10px 0;
-    font-family:cursive;
+  font-size: 24px;
+  margin: 10px 0;
+  font-family: cursive;
 }
 
+/* line 74, ../Proyeto-Final/scss/style.scss */
 .producto p {
-    font-size: 16px;
-    margin: 10px 0;
+  font-size: 16px;
+  margin: 10px 0;
 }
 
+/* line 79, ../Proyeto-Final/scss/style.scss */
 .producto .precio {
-    font-size: 18px;
-    color: #ff6600;
-    font-weight: bold;
-    margin: 10px 0;
+  font-size: 18px;
+  color: #ff6600;
+  font-weight: bold;
+  margin: 10px 0;
 }
 
+/* line 86, ../Proyeto-Final/scss/style.scss */
 .producto button {
-    background-color: #be0303;
-    color: #fff;
-    border-radius:30px;
-    padding: 10px 20px;
-    font-size: 18px;
-    cursor: pointer;
-    border: none;
+  background-color: #be0303;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
 }
 
+/* line 95, ../Proyeto-Final/scss/style.scss */
 .producto button:hover {
-    background-color: #661602;
+  background-color: #661602;
 }
 
+/* line 101, ../Proyeto-Final/scss/style.scss */
 .hide {
-    display: none;
+  display: none;
 }
 
+/* line 105, ../Proyeto-Final/scss/style.scss */
 .redes {
-    list-style: none;
+  list-style: none;
 }
 
-
-/* CONTACTO */
-
+/* line 110, ../Proyeto-Final/scss/style.scss */
 .seccion-contacto {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-h2 {
-    margin-bottom: 20px;
-    font-size: 28px;
+/* line 115, ../Proyeto-Final/scss/style.scss */
+.seccion-contacto h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
 }
 
-form {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
+/* line 120, ../Proyeto-Final/scss/style.scss */
+.seccion-contacto form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
 }
 
-.campo {
-    margin-bottom: 15px;
+/* line 126, ../Proyeto-Final/scss/style.scss */
+.seccion-contacto .campo {
+  margin-bottom: 15px;
 }
 
-input[type="text"],
-input[type="number"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+/* line 130, ../Proyeto-Final/scss/style.scss */
+.seccion-contacto input[type="text"],
+.seccion-contacto input[type="number"],
+.seccion-contacto input[type="email"],
+.seccion-contacto textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-input[type="submit"] {
-    background-color: #a70404;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+/* line 140, ../Proyeto-Final/scss/style.scss */
+.seccion-contacto input[type="submit"] {
+  background-color: #a70404;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-input[type="submit"]:hover {
-    background-color: #45a049;
+/* line 148, ../Proyeto-Final/scss/style.scss */
+.seccion-contacto input[type="submit"]:hover {
+  background-color: #45a049;
 }
 
-
-/* SERVICIOS */
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
-
+/* line 155, ../Proyeto-Final/scss/style.scss */
 .servicio {
-    background-color: #fff;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+/* line 162, ../Proyeto-Final/scss/style.scss */
 .servicio:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
+/* line 166, ../Proyeto-Final/scss/style.scss */
 .servicio h2 {
-    color: #007bff;
+  color: #007bff;
 }
 
+/* line 170, ../Proyeto-Final/scss/style.scss */
 .servicio p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
+/* line 176, ../Proyeto-Final/scss/style.scss */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
-
-
-
 
 /*# sourceMappingURL=style.css.map */

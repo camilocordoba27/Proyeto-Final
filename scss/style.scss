@@ -1,24 +1,181 @@
-/* Importa los estilos de Bootstrap */
-@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+// Importa los estilos de Bootstrap
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
 
-/* Estilos personalizados */
+// Estilos personalizados
 body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
 }
 
 .navbar {
-    background-color: #333;
-    color: #fff;
+  background-color: #333;
+  color: #fff;
 }
 
 .main {
-    padding: 20px;
+  padding: 20px;
 }
 
-.footer {
-    background-color: #333;
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  ul {
+    li {
+      display: inline-block;
+      margin-right: 50px;
+    }
+  }
+}
+
+a {
+  color: rgb(153, 32, 2);
+  &:hover {
+    color: #250902;
+  }
+}
+
+// Estilo productos
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.producto {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    font-family: cursive;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .precio {
+    font-size: 18px;
+    color: #ff6600;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  button {
+    background-color: #be0303;
     color: #fff;
-    text-align: center;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+
+    &:hover {
+      background-color: #661602;
+    }
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.redes {
+  list-style: none;
+}
+
+// Estilo de contacto
+.seccion-contacto {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+
+  .campo {
+    margin-bottom: 15px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  textarea {
+    width: 100%;
     padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="submit"] {
+    background-color: #a70404;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+}
+
+// Estilo de servicios
+.servicio {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  h2 {
+    color: #007bff;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+// Estilo del footer
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
