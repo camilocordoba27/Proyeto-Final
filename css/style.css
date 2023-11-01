@@ -20,11 +20,12 @@ body {
 
 /* line 19, ../sssee/scss/style.scss */
 footer {
-  background-color: #4e4d4d;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
+
 
 a {
     color: rgb(153, 32, 2);
@@ -56,6 +57,10 @@ a:hover{
     max-width: 100%;
     height: auto;
     padding: 0px;
+}
+
+.producto:hover {
+    transform: scale(1.1);
 }
 
 .producto h2 {
